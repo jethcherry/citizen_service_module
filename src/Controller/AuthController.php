@@ -8,7 +8,9 @@ use Drupal\Core\Controller\ControllerBase;
 */
 
 class AuthController extends ControllerBase{
-
+/**
+* @return
+*/
 public function register(){
 }
 
