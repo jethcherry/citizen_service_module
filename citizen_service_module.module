@@ -1,0 +1,17 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\StringTranslation\TranslatableMarkup;
+
+/**
+ * Implements hook_help().
+ */
+function citizen_service_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.citizen_service':
+      $output = '';
+      $output .= '<h3>' . new TranslatableMarkup('About') . '</h3>';
+      $output .= '<p>' . new TranslatableMarkup('This is an example module.') . '</p>';
+      return $output;
+  }
+}

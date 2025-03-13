@@ -1,0 +1,7 @@
+citizen_service.home:
+  path: '/register'
+  defaults:
+    _controller: '\Drupal\citizen_service\Controller\AuthController::register'
+    _title: 'Citizen Service'
+  requirements:
+    _permission: 'access content'
