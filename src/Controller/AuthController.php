@@ -12,6 +12,10 @@ class AuthController extends ControllerBase{
 * @return
 */
 public function register(){
+
+/**
+   * @var \Drupal\citizen_service_module\AuthService
+   */
 }
 
 }

@@ -1,0 +1,10 @@
+services:
+  citizen_service_module.salutation:
+    class: Drupal\citizen_service_module\register
+
+
+
+#  hello_world.salutation:
+#   class: Drupal\hello_world\HelloWorldSalutation
+#   tags:
+#     - {name: tag_name}
